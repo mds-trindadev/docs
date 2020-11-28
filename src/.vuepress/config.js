@@ -35,7 +35,7 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: true,
-    nav: [
+    nav: [ 
       {
         text: "Visão Geral",
         link: "/overview/about",
@@ -43,6 +43,10 @@ module.exports = {
       {
         text: "Produto",
         link: "/product/tap",
+      },
+      {
+        text: "Metodologia e Processos",
+        link: "/methodology/agile",
       },
       {
         text: "Scrum",
@@ -65,7 +69,11 @@ module.exports = {
         collapsable: false,
         children: ["/product/tap", "/product/eap", "/product/vision", "/product/architecture", "/product/identity", "/product/prototype"],
       },
-
+      {
+        title: "Metodologia e Processos",
+        collapsable: false,
+        children: ["/methodology/agile"],
+      },
       // "/scrum/": [
       //   {
       //     title: "Scrum",
