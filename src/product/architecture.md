@@ -4,6 +4,7 @@
 | --- | :---: | :---: | :---: |
 | 19/11/2020 | 0.1 | Criação da versão inicial do documento | Irwin |
 | 27/11/2020 | 0.2 | Atualização de todos os tópicos do documento | Yan |
+| 03/12/2020 | 0.3 | Inserção do Diagrama de Classes | Yan |
 ## Introdução 
 ### Objetivo
 Este documento oferece uma visão geral arquitetural do sistema que será implementado, permitindo assim que os envolvidos no projeto conheçam como a aplicação será subdivida e quais serão as funções de cada componente.
@@ -26,6 +27,7 @@ O sistema deverá ser intuitivo e de simples uso, de forma que seja rápido e pr
 O projeto será desenvolvido em Python (versão 3.7), utilizando o framework Flask (versão 1.1.2), em conjunto com o framework Vue, um framework JavaScript para criação de interfaces. Também será utilizado o Firebase (versão 4.4.0 para Python).
 ### Confiabilidade
 O sistema terá uma cobertura mínima de testes de 90%, buscando garantir que suas funcionalidades foram suficientemente testadas.
-## Visão de Casos de Uso
-## Visão Lógica
 ## Visão de implementação
+### Diagrama de Classes
+O diagrama de classe é uma representação estática para descrever a arquitetura de um projeto. Tal documento tem como objetivo principal documentar, de formar visual, as fases de desenvolvimento do software. Ao analisar o diagrama abaixo é possível mapear, de forma clara e objetiva, a estrutura do projeto Acácia em nível macro e auxiliar no entendimento do escopo. Durante o processo de desenvolvimento do documento a Linguagem de Modelagem Unificada (UML) foi utilizada.
+![Alt text](/Diagrama.png)

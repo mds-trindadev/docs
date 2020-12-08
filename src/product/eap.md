@@ -7,3 +7,4 @@
 ## Introdução
 Este documento permite a visualização do projeto em blocos de atividades que se relacionam para o cumprimento do projeto. Nela, constam as atividades necessárias para entrega do produto mínimo viável, contando também com a sua implementação.
 ## Diagrama
+![Alt text](./Diagrama.png)

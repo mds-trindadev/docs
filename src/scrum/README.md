@@ -51,3 +51,25 @@ Capacitação em Vue.js para toda a equipe.
 Foi criado as páginas e as rotas no Vue.js.
 Axios foi implementado junto com as rotas no Flask (Tanto no Backend quanto no Frontend).
 ## Sprint 4
+### Requisitos
+Implementação do método de sugestão da grade horária.
+Implementação do método extrairDadosPDF.
+### Backend
+A funcionalidade de extrair o grau de trancamento de cada disciplina de cada curso foi elaborada.
+Perguntamos ao professor Bruno Ribas sobre a melhor forma de montar a grade baseada na ordem de prioridade, ele conseguiu nos auxiliar.
+Pesquisamos sobre relações many-to-many no Firebase.
+O backend foi integrado com o frontend.
+### Frontend
+Criação da barra de buscas.
+Criação da opção de Listar disciplinas.
+O frontend foi integrado com o backend.
+### Documentação
+Foi feita a criação do protótipo utilizando o Figma.
+O TE2 foi produzido e entregue dentro do prazo, apesar de faltar a documentação referente à Testes de Software e foi realizado a documentação no markdown da Vuepress.
+### Insomnia
+Insomnia foi configurado.
+### Apagando incêndios
+Correções na formatação das requisições.
+Correção da pesquisa por disciplinas.
+Inclusão de uma lista de disciplinas que o usuário não pode cursar.
+Correção de bugs.
