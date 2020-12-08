@@ -35,7 +35,7 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: true,
-    nav: [ 
+    nav: [
       {
         text: "Visão Geral",
         link: "/overview/about",
@@ -67,7 +67,11 @@ module.exports = {
       {
         title: "Visão de Produto",
         collapsable: false,
-        children: ["/product/tap", "/product/eap", "/product/vision", "/product/architecture", "/product/identity", "/product/prototype"],
+        children: [
+          "/product/tap",
+          /*"/product/eap",*/ "/product/vision",
+          "/product/architecture" /*"/product/identity", "/product/prototype"*/,
+        ],
       },
       {
         title: "Metodologia e Processos",
